@@ -22,7 +22,9 @@ test:
 
 lint:
 	# See local hadolint install instructions:   https://github.com/hadolint/hadolint
-	docker pull hadolint/hadolint
+	git clone https://github.com/hadolint/hadolint
+	cd hadolint
+	stack install
 	# This is linter for Dockerfiles
 	hadolint Dockerfile
 	# This is a linter for Python source code linter: https://www.pylint.org/
