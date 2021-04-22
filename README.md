@@ -1,4 +1,4 @@
-<include a CircleCI status badge, here>
+[![<mariamMazen>](https://circleci.com/gh/mariamMazen/project4>.svg?style=svg)]
 
 ## Project Overview
 
