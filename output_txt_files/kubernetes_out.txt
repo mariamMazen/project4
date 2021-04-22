@@ -1,0 +1,7 @@
+error: failed to create deployment: deployments.apps "project4-submission" already exists
+NAME                                   READY   STATUS             RESTARTS   AGE
+project4-855cf58c9f-pcbz8              0/1     ImagePullBackOff   0          6m48s
+project4-submission-55df679b55-lb7wc   1/1     Running            0          5m22s
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000
